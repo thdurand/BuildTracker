@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nom": "Monster Hunter Generation",
+    "type": "Action RPG"
+  },
+  {
+    "id": 2,
+    "nom": "Monster Hunter Now",
+    "type": "Action RPG"
+  },
+  {
+    "id": 3,
+    "nom": "Elden Ring",
+    "type": "Action RPG"
+  }
+]
