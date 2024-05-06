@@ -1,7 +1,7 @@
 // Dans votre fichier de navigation
-import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './screens/HomeScreen';
-import HomepageScreen from './screens/HomepageScreen';
+import { createStackNavigator } from "@react-navigation/stack";
+import HomeScreen from "./screens/HomeScreen";
+import HomepageScreen from "./screens/HomepageScreen";
 
 const Stack = createStackNavigator();
 

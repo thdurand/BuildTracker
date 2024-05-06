@@ -1,11 +1,12 @@
 // AccueilScreen.js
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList } from 'react-native';
-import { style } from '../style/style';
-import jeuxData from '../data/jeux.json';
-import JeuItem from '../components/JeuItem';
+import { style } from '../../style/style';
+import jeuxData from '../../data/jeux.json';
+import JeuItem from '../../components/JeuItem';
 
-function AccueilScreen({ navigation }) {
+
+function HomeScreen({ navigation }) {
   const [jeux, setJeux] = useState([]);
 
   useEffect(() => {
@@ -14,7 +15,7 @@ function AccueilScreen({ navigation }) {
 
   return (
     <View style={style.container}>
-      <Text style={style.text}>Liste des jeux :</Text>
+      <Text style={style.text}>My games</Text>
       <FlatList
         data={jeux}
         keyExtractor={(item) => item.id.toString()}
@@ -24,4 +25,4 @@ function AccueilScreen({ navigation }) {
   );
 };
 
-export default AccueilScreen;
+export default HomeScreen;

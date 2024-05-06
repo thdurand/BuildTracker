@@ -11,7 +11,7 @@ const JeuItem = ({ item, navigation }) => {
             <Button
                 title="Visualiser"
                 onPress={() => {
-                    navigation.navigate('Reservation', {
+                    navigation.navigate('gameDetail', {
                         jeu: item,
                     });
                 }}
